@@ -16,6 +16,7 @@ data = [
     ("burger", "Burger King"),
     ("shawarma", "Local Shawarma"),
     ("pasta", "Italiano"),
+"sushi": "Tokyo Sushi"
 ]
 
 cursor.executemany("INSERT INTO restaurants (meal, name) VALUES (?, ?)", data)
